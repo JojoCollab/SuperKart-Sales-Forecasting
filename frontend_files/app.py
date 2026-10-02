@@ -9,7 +9,7 @@ st.write("Enter the product and store information to predict sales.")
 
 backend_url = st.text_input(
     "Backend URL",
-    "http://backend:7860"
+    "http://host.docker.internal:7860"
 )
 
 st.subheader("Product Information")
